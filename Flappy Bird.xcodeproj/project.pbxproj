@@ -15,6 +15,10 @@
 		B00EF8D3222CC1B6003ACD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8D1222CC1B6003ACD77 /* Main.storyboard */; };
 		B00EF8D5222CC1B7003ACD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8D4222CC1B7003ACD77 /* Assets.xcassets */; };
 		B00EF8D8222CC1B7003ACD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8D6222CC1B7003ACD77 /* LaunchScreen.storyboard */; };
+		B00EF8E1222CC4A3003ACD77 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8DF222CC4A3003ACD77 /* sound.mp3 */; };
+		B00EF8E2222CC4A3003ACD77 /* backSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8E0222CC4A3003ACD77 /* backSound.mp3 */; };
+		B00EF8E4222D17A0003ACD77 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF8E3222D17A0003ACD77 /* StartViewController.swift */; };
+		B00EF8E9222F687A003ACD77 /* Blinded By Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00EF8E8222F687A003ACD77 /* Blinded By Light.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B00EF8D4222CC1B7003ACD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00EF8D7222CC1B7003ACD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00EF8D9222CC1B7003ACD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00EF8DF222CC4A3003ACD77 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = FlappyGameResource/sound.mp3; sourceTree = SOURCE_ROOT; };
+		B00EF8E0222CC4A3003ACD77 /* backSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backSound.mp3; path = FlappyGameResource/backSound.mp3; sourceTree = SOURCE_ROOT; };
+		B00EF8E3222D17A0003ACD77 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B00EF8E8222F687A003ACD77 /* Blinded By Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blinded By Light.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,11 @@
 				B00EF8CB222CC1B6003ACD77 /* Actions.sks */,
 				B00EF8CD222CC1B6003ACD77 /* GameScene.swift */,
 				B00EF8CF222CC1B6003ACD77 /* GameViewController.swift */,
+				B00EF8E3222D17A0003ACD77 /* StartViewController.swift */,
 				B00EF8D1222CC1B6003ACD77 /* Main.storyboard */,
+				B00EF8E0222CC4A3003ACD77 /* backSound.mp3 */,
+				B00EF8E8222F687A003ACD77 /* Blinded By Light.mp3 */,
+				B00EF8DF222CC4A3003ACD77 /* sound.mp3 */,
 				B00EF8D4222CC1B7003ACD77 /* Assets.xcassets */,
 				B00EF8D6222CC1B7003ACD77 /* LaunchScreen.storyboard */,
 				B00EF8D9222CC1B7003ACD77 /* Info.plist */,
@@ -132,9 +144,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00EF8D3222CC1B6003ACD77 /* Main.storyboard in Resources */,
+				B00EF8E2222CC4A3003ACD77 /* backSound.mp3 in Resources */,
 				B00EF8CA222CC1B6003ACD77 /* GameScene.sks in Resources */,
 				B00EF8D5222CC1B7003ACD77 /* Assets.xcassets in Resources */,
+				B00EF8E9222F687A003ACD77 /* Blinded By Light.mp3 in Resources */,
 				B00EF8D8222CC1B7003ACD77 /* LaunchScreen.storyboard in Resources */,
+				B00EF8E1222CC4A3003ACD77 /* sound.mp3 in Resources */,
 				B00EF8CC222CC1B6003ACD77 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00EF8CE222CC1B6003ACD77 /* GameScene.swift in Sources */,
+				B00EF8E4222D17A0003ACD77 /* StartViewController.swift in Sources */,
 				B00EF8D0222CC1B6003ACD77 /* GameViewController.swift in Sources */,
 				B00EF8C8222CC1B6003ACD77 /* AppDelegate.swift in Sources */,
 			);
